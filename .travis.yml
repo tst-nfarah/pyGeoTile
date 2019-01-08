@@ -17,7 +17,7 @@ install:
 
 #script: py.test
 script:
-  - py.test –cov= tests/
+  - py.test –cov=tests/
 after_success:
   - coveralls
 notifications:
